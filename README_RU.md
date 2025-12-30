@@ -49,7 +49,7 @@ pipeline.run('data/input.csv', 'target_table')
 - `Dockerfile` - определение контейнера
 - `requirements.txt` - зависимости Python
 
-## Энвайронмент переменные
+## Переменные окружения
 
 ```bash
 DATABASE_URL=postgresql://user:password@localhost:5432/etl_db
